@@ -10,10 +10,8 @@ import {
   useTransform,
   motion,
   useMotionValueEvent,
-  progress,
 } from "framer-motion";
 import { useMemo, useRef, useState } from "react";
-import { act } from "react-dom/test-utils";
 import { useWindowSize } from "react-use";
 
 const VideoCarousel = () => {
